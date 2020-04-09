@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모음</title>
+    <style>
+        body{
+            margin: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .container{
+            display: grid;
+            grid-template-columns : repeat(3, 1fr);
+            width: 100%;
+            height: 100%;
+            grid-gap:10px;
+            justify-items:center;
+            align-items:center;
+        }
+        .show:nth-child(n){
+            background: beige;
+        }
+        .top{
+            grid-row: 1;
+            grid-column: 1/4;
+            background: beige;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <H1>여러분들의 페이지 모음</H1>
+        </div>
+        <div class="show">
+            <a href="/CJH">주희</a>
+        </div>
+        <div class="show">
+            <a href="/JJW">지원</a>
+        </div>
+        <div class="show">
+            <a href="/KCW">채원</a>
+        </div>
+        <div class="show">
+            <a href="/KHC">희찬</a>
+        </div>
+        <div class="show">
+            <a href="/KJE">지은</a>
+        </div>
+        <div class="show">
+            <a href="/KJH">재훈</a>
+        </div>
+        <div class="show">
+            <a href="/KJW">진우</a>
+        </div>
+        <div class="show">
+            <a href="/KMJ">민지</a>
+        </div>
+        <div class="show">
+            <a href="/LEA">은아</a>
+        </div>
+        <div class="show">
+            <a href="/LMH">명환</a>
+        </div>
+        <div class="show">
+            <a href="/LMJ">민정</a>
+        </div>
+        <div class="show">
+            <a href="/LYB">예빈</a>
+        </div>
+        <div class="show">
+            <a href="/PJY">지윤</a>
+        </div>
+        <div class="show">
+            <a href="/SBD">바다</a>
+        </div>
+        <div class="show">
+            <a href="/WIA">인아</a>
+        </div>  
+    </div>
+</body>
+</html>

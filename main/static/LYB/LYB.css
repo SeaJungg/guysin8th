@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: pink;
+}
+.title{
+    display: flex;
+    width: 100vw;
+    height: 120px;
+    background-color : lightpink;
+    justify-content: center;
+
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    background-color: skyblue;
+    border: 1px dotted black;
+    flex:1;
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+    width:50%;
+    height:800px;
+    background-color: coral;
+}
+.box1-1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height:100%;
+    background-color: lightgreen;
+}
+.box1_1{
+    width: 50%
+}
+
+.box1-2{
+    width: 50%;
+    height: 100%;
+    background-color: lightsalmon;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    height:800px;
+    background-color:burlywood;
+}
+
+.video-container{
+    position: relative;
+    padding-bottom:56.25%; height: 0; overflow:hidden;
+}
+
+.video.container iframe,.video-container object,.video-container embed{
+    position: absolute;
+    top : 0; left: 0; width: 100%; height: 100%;
+}
+
+.box2top{
+    display: flex;
+    width: 100%;
+    height:600px;
+    background-color : skyblue;
+}
+
+.box2text{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    background-color: white;
+    border: 1px dotted black;
+    flex:1;
+
+}
+
+.box2-1{
+width:50%;
+height:200px;
+background-color:yellow;
+border-radius: 50%;
+text-align:center;
+border: 2px dotted black;
+
+
+
+}
+
+.box2-2{
+width:50%;
+height:200px;
+background-color:burlywood;
+border-radius: 50%;
+text-align:center;
+border: 2px dotted black;
+
+}
+
