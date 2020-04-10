@@ -1,0 +1,69 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: yellow;
+    color: black;
+    height: 100px;
+    width: 100%;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height:920px;
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 800px;
+}
+.item1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 400px;
+
+}
+.item2{
+    width: 50%;
+    height: 800px;
+}
+.youtube{
+    width: 100%;
+    height: 600px;
+}
+.pot{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+}
+.github{
+    line-height: 150px;
+    width: 50%;
+    height: 200px;
+    background: peachpuff;
+    border-radius: 50%;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+}
+.instargram{
+    line-height: 150px;
+    width: 50%;
+    height: 200px;
+    background: peachpuff;
+    border-radius: 50%;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+
+}
+
