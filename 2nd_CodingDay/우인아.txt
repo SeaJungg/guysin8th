@@ -1,1 +1,365 @@
 동해물과 백두산이 마르고 닳도록
+
+
+In-A@DESKTOP-BM0SDRF MINGW64 ~/Desktop/므쨍이사자처럼/guysin8th (master)
+$ git pull
+remote: Enumerating objects: 184, done.
+remote: Counting objects: 100% (184/184), done.
+remote: Compressing objects: 100% (120/120), done.
+remote: Total 174 (delta 68), reused 148 (delta 42), pack-reused 0R
+Receiving objects: 100% (174/174), 22.65 MiB | 757.00 KiB/s, done.
+Resolving deltas: 100% (68/68), completed with 5 local objects.
+From https://github.com/SeaJungg/guysin8th        
+   e13d854..630855a  master       -> origin/master
+ * [new branch]      Jiwon        -> origin/Jiwon
+ * [new branch]      chaewon      -> origin/chaewon
+ * [new branch]      eunah        -> origin/eunah  
+ * [new branch]      heechan      -> origin/heechan
+ * [new branch]      minjung      -> origin/minjung
+ * [new branch]      seulongtest  -> origin/seulongtest
+ * [new branch]      showyourpage -> origin/showyourpage
+Updating e13d854..630855a
+Fast-forward
+ .../\354\235\264\355\230\234\354\204\240.txt.txt"  |   1 +
+ guysincode/settings.py                             |   4 +-
+ guysincode/urls.py                                 |   1 +
+ main/static/CJH/CJH.css                            |  76 ++++++++++++
+ .../CJH/\353\202\264\354\202\254\354\247\204.jpg"  | Bin 0 -> 368005 bytes
+ .../CJH/\354\213\234\352\260\204\355\221\234.jpg"  | Bin 0 -> 171201 bytes
+ .../CJH/\354\260\270\354\271\230\355\232\214.jpg"  | Bin 0 -> 226532 bytes
+ main/static/JJW/GitHub.png                         | Bin 0 -> 2877 bytes
+ main/static/JJW/JJW.css                            |  52 ++++++++
+ main/static/JJW/My pic.jpeg                        | Bin 0 -> 203942 bytes
+ main/static/JJW/food.jpg                           | Bin 0 -> 66875 bytes
+ main/static/JJW/instagram.jpeg                     | Bin 0 -> 127509 bytes
+ main/static/JJW/schedule.jpg                       | Bin 0 -> 310800 bytes
+ main/static/KCW/KCW.css                            | 106 +++++++++++++++++
+ main/static/KCW/gamjatang.jpg                      | Bin 0 -> 45873 bytes
+ main/static/KCW/me.jpg                             | Bin 0 -> 387127 bytes
+ main/static/KCW/timetable.jpg                      | Bin 0 -> 148132 bytes
+ .../KHC/EC2BCD89-DBAA-4F2C-A996-3E8AD85BAFF2.jpg   | Bin 0 -> 379958 bytes
+ main/static/KHC/IMG_0109.JPG                       | Bin 0 -> 1719910 bytes
+ main/static/KHC/KHC.css                            |  84 +++++++++++++
+ main/static/KHC/KakaoTalk_20200407_021155100.png   | Bin 0 -> 333202 bytes
+ main/static/KJE/KJE.css                            |  73 ++++++++++++
+ main/static/KJH/KJH.css                            | 106 +++++++++++++++++
+ main/static/KJH/food.jpg                           | Bin 0 -> 611741 bytes
+ main/static/KJH/me.jpeg                            | Bin 0 -> 1317976 bytes
+ main/static/KJH/timetable.jpeg                     | Bin 0 -> 411802 bytes
+ main/static/KJW/KJW.css                            |  81 +++++++++++++
+ .../KJW/\353\202\264 \354\202\254\354\247\204.jpg" | Bin 0 -> 2406840 bytes
+ ...2\264 \354\213\234\352\260\204\355\221\234.jpg" | Bin 0 -> 146297 bytes
+ .../KJW/\354\214\200\352\265\255\354\210\230.jpg"  | Bin 0 -> 65920 bytes
+ main/static/KMJ/1.png                              | Bin 0 -> 163723 bytes
+ main/static/KMJ/2.jpg                              | Bin 0 -> 147758 bytes
+ main/static/KMJ/3.JPG                              | Bin 0 -> 27199 bytes
+ main/static/KMJ/KMJ.css                            |  66 +++++++++++
+ "main/static/KMJ/\354\232\224\354\240\225.gif"     | Bin 0 -> 3069 bytes
+ main/static/LEA/LEA.css                            |  69 +++++++++++
+ main/static/LEA/food.jpeg                          | Bin 0 -> 860325 bytes
+ main/static/LEA/me.jpeg                            | Bin 0 -> 121756 bytes
+ main/static/LEA/timetable.jpeg                     | Bin 0 -> 39247 bytes
+ main/static/LMH/2020-04-08.png                     | Bin 0 -> 1851284 bytes
+ main/static/LMH/LMH.css                            |  85 +++++++++++++
+ .../LMH/\352\262\250\354\232\270\354\235\2641.jpg" | Bin 0 -> 2842864 bytes
+ .../LMH/\352\271\203\355\227\210\353\270\214.png"  | Bin 0 -> 3868 bytes
+ .../LMH/\354\213\234\352\260\204\355\221\234.jpg"  | Bin 0 -> 177472 bytes
+ ...12\244\355\203\200\352\267\270\353\236\250.jpg" | Bin 0 -> 28408 bytes
+ "main/static/LMH/\354\270\204\353\245\264.jpg"     | Bin 0 -> 6509 bytes
+ main/static/LMJ/LMJ.css                            |  95 +++++++++++++++
+ main/static/LMJ/hi.jpg                             | Bin 0 -> 1694334 bytes
+ main/static/LMJ/jel.jpg                            | Bin 0 -> 106738 bytes
+ main/static/LMJ/timetable.jpg                      | Bin 0 -> 277398 bytes
+ main/static/LYB/LYB.css                            | 113 ++++++++++++++++++
+ main/static/LYB/codingday2.jpg                     | Bin 0 -> 5126409 bytes
+ main/static/LYB/food.jpg                           | Bin 0 -> 505580 bytes
+ main/static/LYB/table.jpg                          | Bin 0 -> 168983 bytes
+ main/static/PJY/PJY.css                            |  69 +++++++++++
+ main/static/SBD/SBD.css                            |  79 +++++++++++++
+ main/static/SBD/bada.jpg                           | Bin 0 -> 206970 bytes
+ main/static/SBD/face.jpg                           | Bin 0 -> 87404 bytes
+ main/static/SBD/food.jpg                           | Bin 0 -> 521915 bytes
+ main/static/SBD/timetable.jpg                      | Bin 0 -> 143103 bytes
+ main/static/WIA/WIA.css                            |  67 +++++++++++
+ "main/static/WIA/\354\225\210\354\213\254.jpg"     | Bin 0 -> 70192 bytes
+ main/static/index/index.css                        |  71 +++++++++++
+ main/static/show/show.png                          | Bin 0 -> 2155 bytes
+ main/templates/CJH.html                            |   0
+ main/templates/JJW.html                            |   0
+ main/templates/KCW.html                            |   0
+ main/templates/KHC.html                            |   0
+ main/templates/KJE.html                            |   0
+ main/templates/KJH.html                            |   0
+ main/templates/KJW.html                            |   0
+ main/templates/KMJ.html                            |   0
+ main/templates/LEA.html                            |   0
+ main/templates/LMH.html                            |   0
+ main/templates/LMJ.html                            |   0
+ main/templates/LYB.html                            |   0
+ main/templates/PJY.html                            |   0
+ main/templates/SBD.html                            |   0
+ main/templates/WIA.html                            |   0
+ main/templates/index.html                          |  34 +++++-
+ main/templates/seulong.html                        |  11 ++
+ main/templates/show.html                           | 131 +++++++++++++++++++++
+ main/templates/showyourpage/CJH.html               |  54 +++++++++
+ main/templates/showyourpage/JJW.html               |  44 +++++++
+ main/templates/showyourpage/KCW.html               |  53 +++++++++
+ main/templates/showyourpage/KHC.html               |  39 ++++++
+ main/templates/showyourpage/KJE.html               |  40 +++++++
+ main/templates/showyourpage/KJH.html               |  46 ++++++++
+ main/templates/showyourpage/KJW.html               |  50 ++++++++
+ main/templates/showyourpage/KMJ.html               |  47 ++++++++
+ main/templates/showyourpage/LEA.html               |  42 +++++++
+ main/templates/showyourpage/LMH.html               |  33 ++++++
+ main/templates/showyourpage/LMJ.html               |  59 ++++++++++
+ main/templates/showyourpage/LYB.html               |  60 ++++++++++
+ main/templates/showyourpage/PJY.html               |  41 +++++++
+ main/templates/showyourpage/SBD.html               |  61 ++++++++++
+ main/templates/showyourpage/WIA.html               |  34 ++++++
+ main/urls.py                                       |  15 +++
+ main/views.py                                      |  50 +++++++-
+ 99 files changed, 2239 insertions(+), 3 deletions(-)
+ create mode 100644 "2nd_CodingDay/\354\235\264\355\230\234\354\204\240.txt.txt"
+ create mode 100644 main/static/CJH/CJH.css
+ create mode 100644 "main/static/CJH/\353\202\264\354\202\254\354\247\204.jpg"
+ create mode 100644 "main/static/CJH/\354\213\234\352\260\204\355\221\234.jpg"
+ create mode 100644 "main/static/CJH/\354\260\270\354\271\230\355\232\214.jpg"
+ create mode 100644 main/static/JJW/GitHub.png
+ create mode 100644 main/static/JJW/JJW.css
+ create mode 100644 main/static/JJW/My pic.jpeg
+ create mode 100644 main/static/JJW/food.jpg
+ create mode 100644 main/static/JJW/instagram.jpeg
+ create mode 100644 main/static/JJW/schedule.jpg
+ create mode 100644 main/static/KCW/KCW.css
+ create mode 100644 main/static/KCW/gamjatang.jpg
+ create mode 100644 main/static/KCW/me.jpg
+ create mode 100644 main/static/KCW/timetable.jpg
+ create mode 100644 main/static/KHC/EC2BCD89-DBAA-4F2C-A996-3E8AD85BAFF2.jpg
+ create mode 100644 main/static/KHC/IMG_0109.JPG
+ create mode 100644 main/static/KHC/KHC.css
+ create mode 100644 main/static/KHC/KakaoTalk_20200407_021155100.png
+ create mode 100644 main/static/KJE/KJE.css
+ create mode 100644 main/static/KJH/KJH.css
+ create mode 100644 main/static/KJH/food.jpg
+ create mode 100644 main/static/KJH/me.jpeg
+ create mode 100644 main/static/KJH/timetable.jpeg
+ create mode 100644 main/static/KJW/KJW.css
+ create mode 100644 "main/static/KJW/\353\202\264 \354\202\254\354\247\204.jpg"
+ create mode 100644 "main/static/KJW/\353\202\264 \354\213\234\352\260\204\355\221\234.jpg"
+ create mode 100644 "main/static/KJW/\354\214\200\352\265\255\354\210\230.jpg"
+ create mode 100644 main/static/KMJ/1.png
+ create mode 100644 main/static/KMJ/2.jpg
+ create mode 100644 main/static/KMJ/3.JPG
+ create mode 100644 main/static/KMJ/KMJ.css
+ create mode 100644 "main/static/KMJ/\354\232\224\354\240\225.gif"
+ create mode 100644 main/static/LEA/LEA.css
+ create mode 100644 main/static/LEA/food.jpeg
+ create mode 100644 main/static/LEA/me.jpeg
+ create mode 100644 main/static/LEA/timetable.jpeg
+ create mode 100644 main/static/LMH/2020-04-08.png
+ create mode 100644 main/static/LMH/LMH.css
+ create mode 100644 "main/static/LMH/\352\262\250\354\232\270\354\235\2641.jpg"
+ create mode 100644 "main/static/LMH/\352\271\203\355\227\210\353\270\214.png"
+ create mode 100644 "main/static/LMH/\354\213\234\352\260\204\355\221\234.jpg"
+ create mode 100644 "main/static/LMH/\354\235\270\354\212\244\355\203\200\352\267\270\353\236\250.jpg"
+ create mode 100644 "main/static/LMH/\354\270\204\353\245\264.jpg"
+ create mode 100644 main/static/LMJ/LMJ.css
+ create mode 100644 main/static/LMJ/hi.jpg
+ create mode 100644 main/static/LMJ/jel.jpg
+ create mode 100644 main/static/LMJ/timetable.jpg
+ create mode 100644 main/static/LYB/LYB.css
+ create mode 100644 main/static/LYB/codingday2.jpg
+ create mode 100644 main/static/LYB/food.jpg
+ create mode 100644 main/static/LYB/table.jpg
+ create mode 100644 main/static/PJY/PJY.css
+ create mode 100644 main/static/SBD/SBD.css
+ create mode 100644 main/static/SBD/bada.jpg
+ create mode 100644 main/static/SBD/face.jpg
+ create mode 100644 main/static/SBD/food.jpg
+ create mode 100644 main/static/SBD/timetable.jpg
+ create mode 100644 main/static/WIA/WIA.css
+ create mode 100644 "main/static/WIA/\354\225\210\354\213\254.jpg"
+ create mode 100644 main/static/index/index.css
+ create mode 100644 main/static/show/show.png
+ delete mode 100644 main/templates/CJH.html
+ delete mode 100644 main/templates/JJW.html
+ delete mode 100644 main/templates/KCW.html
+ delete mode 100644 main/templates/KHC.html
+ delete mode 100644 main/templates/KJE.html
+ delete mode 100644 main/templates/KJH.html
+ delete mode 100644 main/templates/KJW.html
+ delete mode 100644 main/templates/KMJ.html
+ delete mode 100644 main/templates/LEA.html
+ delete mode 100644 main/templates/LMH.html
+ delete mode 100644 main/templates/LMJ.html
+ delete mode 100644 main/templates/LYB.html
+ delete mode 100644 main/templates/PJY.html
+ delete mode 100644 main/templates/SBD.html
+ delete mode 100644 main/templates/WIA.html
+ create mode 100644 main/templates/show.html
+ create mode 100644 main/templates/showyourpage/CJH.html
+ create mode 100644 main/templates/showyourpage/JJW.html
+ create mode 100644 main/templates/showyourpage/KCW.html
+ create mode 100644 main/templates/showyourpage/KHC.html
+ create mode 100644 main/templates/showyourpage/KJE.html
+ create mode 100644 main/templates/showyourpage/KJH.html
+ create mode 100644 main/templates/showyourpage/KJW.html
+ create mode 100644 main/templates/showyourpage/KMJ.html
+ create mode 100644 main/templates/showyourpage/LEA.html
+ create mode 100644 main/templates/showyourpage/LMH.html
+ create mode 100644 main/templates/showyourpage/LMJ.html
+ create mode 100644 main/templates/showyourpage/LYB.html
+ create mode 100644 main/templates/showyourpage/PJY.html
+ create mode 100644 main/templates/showyourpage/SBD.html
+ create mode 100644 main/templates/showyourpage/WIA.html
+
+In-A@DESKTOP-BM0SDRF MINGW64 ~/Desktop/므쨍이사자처럼/guysin8th (master)
+$ git checkout -b "ina"
+Switched to a new branch 'ina'
+
+In-A@DESKTOP-BM0SDRF MINGW64 ~/Desktop/므쨍이사자처럼/guysin8th (ina)
+$ git add .
+
+In-A@DESKTOP-BM0SDRF MINGW64 ~/Desktop/므쨍이사자처럼/guysin8th (ina)
+$ git commit -m "애국가"
+[ina 8ae65aa] 애국가
+ 1 file changed, 1 insertion(+)
+ create mode 100644 "2nd_CodingDay/\354\232\260\354\235\270\354\225\204.txt"
+
+In-A@DESKTOP-BM0SDRF MINGW64 ~/Desktop/므쨍이사자처럼/guysin8th (ina)
+$ git push
+fatal: The current branch ina has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin ina
+
+
+In-A@DESKTOP-BM0SDRF MINGW64 ~/Desktop/므쨍이사자처럼/guysin8th (ina)
+$ git push --set-upstream origin ina
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': 
+In-A@DESKTOP-BM0SDRF MINGW64 ~/Desktop/므쨍이사자처럼/guysin8th (ina)
+$ git push --set-upstream origin inabash: line 0: read: read error: 0: Input/output error
+
+
+In-A@DESKTOP-BM0SDRF MINGW64 ~/Desktop/므쨍이사자처럼/guysin8th (ina)
+$ git push --set-upstream origin ina
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': 
+In-A@DESKTOP-BM0SDRF MINGW64 ~/Desktop/므쨍이사자처럼/guysin8th (ina)
+$ gbash: line 0: read: read error: 0: Input/output error
+
+
+In-A@DESKTOP-BM0SDRF MINGW64 ~/Desktop/므쨍이사자처럼/guysin8th (ina)
+$ git push --set-upstream origin ina
+Enumerating objects: 30, done.
+Counting objects: 100% (30/30), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (22/22), 1.88 MiB | 515.00 KiB/s, done.
+Total 22 (delta 7), reused 17 (delta 7), pack-reused 0
+remote: Resolving deltas: 100% (7/7), completed with 6 local objects.
+remote: 
+remote: Create a pull request for 'ina' on GitHub by visiting:
+remote:      https://github.com/SeaJungg/guysin8th/pull/new/ina
+remote:
+To https://github.com/SeaJungg/guysin8th
+ * [new branch]      ina -> ina
+Branch 'ina' set up to track remote branch 'ina' from 'origin'.
+
+In-A@DESKTOP-BM0SDRF MINGW64 ~/Desktop/므쨍이사자처럼/guysin8th (ina)
+$ git pull origin master
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 4 (delta 1), reused 4 (delta 1), pack-reused 0
+Unpacking objects: 100% (4/4), 340 bytes | 4.00 KiB/s, done.
+From https://github.com/SeaJungg/guysin8th
+ * branch            master     -> FETCH_HEAD
+   630855a..132d250  master     -> origin/master
+Merge made by the 'recursive' strategy.
+ "2nd_CodingDay/\352\271\200\354\236\254\355\233\210.txt" | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 "2nd_CodingDay/\352\271\200\354\236\254\355\233\210.txt"
+
+In-A@DESKTOP-BM0SDRF MINGW64 ~/Desktop/므쨍이사자처럼/guysin8th (ina)
+$ git add .
+
+In-A@DESKTOP-BM0SDRF MINGW64 ~/Desktop/므쨍이사자처럼/guysin8th (ina)
+$ git commit -m "애국가"
+On branch ina
+Your branch is ahead of 'origin/ina' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+In-A@DESKTOP-BM0SDRF MINGW64 ~/Desktop/므쨍이사자처럼/guysin8th (ina)
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 442 bytes | 147.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/SeaJungg/guysin8th
+   8ae65aa..7e5938a  ina -> ina
+
+In-A@DESKTOP-BM0SDRF MINGW64 ~/Desktop/므쨍이사자처럼/guysin8th (ina)
+$ git checkout master
+Switched to branch 'master'
+Your branch is behind 'origin/master' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+In-A@DESKTOP-BM0SDRF MINGW64 ~/Desktop/므쨍이사자처럼/guysin8th (master)
+$ git checkout ina
+Switched to branch 'ina'
+Your branch is up to date with 'origin/ina'.
+
+In-A@DESKTOP-BM0SDRF MINGW64 ~/Desktop/므쨍이사자처럼/guysin8th (ina)
+$ git checkout master
+Switched to branch 'master'
+Your branch is behind 'origin/master' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+In-A@DESKTOP-BM0SDRF MINGW64 ~/Desktop/므쨍이사자처럼/guysin8th (master)
+$ git merge ina
+Updating 630855a..7e5938a
+Fast-forward
+ "2nd_CodingDay/\352\271\200\354\236\254\355\233\210.txt" | 1 +
+ "2nd_CodingDay/\354\232\260\354\235\270\354\225\204.txt" | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 100644 "2nd_CodingDay/\352\271\200\354\236\254\355\233\210.txt"
+ create mode 100644 "2nd_CodingDay/\354\232\260\354\235\270\354\225\204.txt"
+
+In-A@DESKTOP-BM0SDRF MINGW64 ~/Desktop/므쨍이사자처럼/guysin8th (master)
+$ git add .
+
+In-A@DESKTOP-BM0SDRF MINGW64 ~/Desktop/므쨍이사자처럼/guysin8th (master)
+$ git commit -m "ina"
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+In-A@DESKTOP-BM0SDRF MINGW64 ~/Desktop/므쨍이사자처럼/guysin8th (master)
+$ git push
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/SeaJungg/guysin8th
+   132d250..7e5938a  master -> master
+
+In-A@DESKTOP-BM0SDRF MINGW64 ~/Desktop/므쨍이사자처럼/guysin8th (master)
+$ git checkout ina
+Switched to branch 'ina'
+Your branch is up to date with 'origin/ina'.
+
+In-A@DESKTOP-BM0SDRF MINGW64 ~/Desktop/므쨍이사자처럼/guysin8th (ina)
+$ git pull origin master
+From https://github.com/SeaJungg/guysin8th
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+In-A@DESKTOP-BM0SDRF MINGW64 ~/Desktop/므쨍이사자처럼/guysin8th (ina)
+$
