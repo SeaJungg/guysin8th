@@ -1,0 +1,14 @@
+table{
+    width: 70%;
+    text-align: center;
+}
+
+.tr1{
+    background-color : black;
+    color: white;
+}
+
+.tr2{
+    background-color : purple;
+    color : yellowgreen;
+ }
