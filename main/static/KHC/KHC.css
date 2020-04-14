@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+}
+
+.container {
+  height: 920px;
+  width: 100%;
+
+}
+
+.first {
+  height: 120px;
+  width: 100%;
+  background-color: yellow;
+
+
+}
+
+.second {
+  height: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.one {
+  background-color: green;
+  height: 800px;
+  flex:1;
+  display: flex;
+  flex-direction: row;
+}
+
+.selfood {
+  flex:1
+}
+
+.time {
+  flex:1;
+}
+
+.two {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex:1;
+
+}
+
+.frame {
+  height: 600px;
+  background-color: red;
+}
+
+.underframe {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  background-color: coral;
+
+}
+
+.github {
+  flex:1;
+  height: 200px;
+  background-color: aqua;
+  border-radius: 50%;
+}
+
+.sns {
+  flex:1;
+  height: 200px;
+  border-radius: 50%;
+  background-color: blueviolet;
+}
+
+button {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+
+}

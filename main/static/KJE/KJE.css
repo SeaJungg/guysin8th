@@ -1,0 +1,73 @@
+body{
+    margin:0;
+}
+.container{
+    height: 920px;
+    width: 100%;
+}
+.container1{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: skyblue;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height: 800px;
+    background-color: white;
+}
+.first{
+    height: 800px;
+    /*width: 600px;*/
+    display: flex;
+    flex-direction: row;
+    flex:1;
+}
+.meandfood{
+    flex:1;
+}
+.timetable{
+    flex:1;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex:1;
+}
+.youtube{
+    height: 600px;
+    width: 100%;
+    flex:1;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    /*display: flex;*/
+    height: 200px;
+}
+.one{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: sandybrown;
+    flex:1;
+}
+.two{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: sandybrown;
+    flex:1;
+}

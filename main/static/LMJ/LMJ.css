@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+}
+
+.mysite{
+    height:920px;
+    width: 100%;    
+    display: flex;
+    flex-direction: column;
+}
+
+.site{
+    display: flex;
+    flex-direction: row;
+
+}
+.title{
+    background-color: white;
+    text-align: center;
+    height: 120px;
+    font-size:11px;
+    
+}
+
+.photos{
+    width: 100%;
+    height: 800px;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+    width: 100%;
+    background-color: paleturquoise;
+}
+
+.photobox{
+    display: flex;
+    flex-direction: column;
+}
+.timetable{
+    height: 800px;
+    width: 50%;
+    
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 100%;
+    background-color: gainsboro;
+
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+    width: 50%;
+    background-color: orange;
+
+}
+
+.photo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rebeccapurple;
+    height: 400px;
+    
+}
+.youtube{
+    height: 600px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+}
+
+.link{
+    background-color: skyblue;
+    bottom: 0px;
+    height: 200px;
+    width: 50%;
+}
+
+#button{
+    color: palevioletred;
+    border-radius:300px;
+    width: 100%;
+    height: 100%;
+}
+

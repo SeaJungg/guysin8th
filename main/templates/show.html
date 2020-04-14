@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모음</title>
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #333333;
+            font-family: 'Gamja Flower', cursive;
+            font-size: 50px;
+        }
+        a:link{
+            color: wheat;
+            text-decoration: none;
+            padding: 100px 30px 100px 30px;
+        }
+        a:visited{
+            color: #505050;
+        }
+        a:hover{
+            font-size: 100px;
+        }
+        .container{
+            display: grid;
+            grid-template-columns : repeat(3, 1fr);
+            width: 100%;
+            height: 100%;
+            grid-gap:10px;
+            justify-items:center;
+            align-items:center;
+            grid-auto-rows: minmax(150px, auto);
+            grid-auto-columns: minmax(100px, auto);
+        }
+        .show:nth-child(n+2){
+            background: beige;
+            border-radius: 50% 40% 50% 40%;
+        }
+        .top{
+            grid-row: 1;
+            grid-column: 1/4;
+            color: black;
+            background: 333333;
+            width: 100%;
+            text-align: center;
+            height: auto;
+            display: grid;
+            justify-items:center;
+            align-items:center;
+        }
+        .top p{
+            background: #b2d2ff;
+            text-align: center;
+            width: 25%;
+        }
+        .bottom{
+            grid-row: 7;
+            grid-column: 1/4;
+            background: #333333;
+            width: 100%;
+            display: grid;
+            justify-items:center;
+            align-items:center;
+        }
+        .bottom p{
+            width: 40%;
+            text-align: center;
+            background: #dcb2ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <p>💕 멋사 8기 💕</p>
+        </div>
+        <div class="show">
+            <a href="/CJH">주희</a>
+        </div>
+        <div class="show">
+            <a href="/JJW">지원</a>
+        </div>
+        <div class="show">
+            <a href="/KCW">채원</a>
+        </div>
+        <div class="show">
+            <a href="/KHC">희찬</a>
+        </div>
+        <div class="show">
+            <a href="/KJE">지은</a>
+        </div>
+        <div class="show">
+            <a href="/KJH">재훈</a>
+        </div>
+        <div class="show">
+            <a href="/KJW">진우</a>
+        </div>
+        <div class="show">
+            <a href="/KMJ">민지</a>
+        </div>
+        <div class="show">
+            <a href="/LEA">은아</a>
+        </div>
+        <div class="show">
+            <a href="/LMH">명환</a>
+        </div>
+        <div class="show">
+            <a href="/LMJ">민정</a>
+        </div>
+        <div class="show">
+            <a href="/LYB">예빈</a>
+        </div>
+        <div class="show">
+            <a href="/PJY">지윤</a>
+        </div>
+        <div class="show">
+            <a href="/SBD">바다</a>
+        </div>
+        <div class="show">
+            <a href="/WIA">인아</a>
+        </div>  
+        <div class="bottom">
+            <p>첫 번째 과제 하느라 고생했어요.</p>
+        </div>
+    </div>
+</body>
+</html>
