@@ -19,4 +19,5 @@ urlpatterns = [
     path('WIA/', views.WIA, name="WIA"),
     path('KJW/', views.KJW, name="KJW"),
     path('LMJ/', views.LMJ, name="LMJ"),
+    path('video', views.video, name="video"),
 ]
