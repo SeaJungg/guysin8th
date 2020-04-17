@@ -42,7 +42,6 @@ iframe{
     opacity: 1;
 }
 .button{
-    font-family: 'Gamja Flower', cursive;
     margin-top: 4%;
     text-align: center;
     position: relative;
@@ -53,7 +52,7 @@ iframe{
     color: #ffffff;
     cursor: pointer;
     display: inline-block;
-    font-size: 22px;
+    font-size: 40px;
     margin: 0 15px 15px 15px;
     outline: none;
     padding: 12px 40px 10px;
