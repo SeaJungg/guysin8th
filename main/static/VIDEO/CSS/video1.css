@@ -3,6 +3,7 @@ body{
     background: #404040;
     width: 100%;
     height: 100%;
+    
 }
 iframe{
     width: 1000px;
@@ -41,6 +42,7 @@ iframe{
     opacity: 1;
 }
 .button{
+    font-family: 'Gamja Flower', cursive;
     margin-top: 4%;
     text-align: center;
     position: relative;
